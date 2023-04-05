@@ -6,7 +6,7 @@ Merhaba! Biz Lingua takımı olarak, doğal dil işleme alanında çalışıyoru
 
 Modelimiz, %95 doğruluk elde etti. Ayrıca, 0.95 F1 puanı elde edildi.
 
-Modelimizi eğitmek için 12.000 adet cümle içeren veri kullanıldı ve eğitim süresi yaklaşık 3.5 saat sürdü.
+Modelimizi eğitmek için 12.000 adet cümle içeren veri seti kullanıldı ve eğitim süresi yaklaşık 3.5 saat sürdü.
 
 # Veri Seti
 
