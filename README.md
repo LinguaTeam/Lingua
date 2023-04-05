@@ -1,7 +1,16 @@
 # Lingua
 ![indir (1)](https://avatars.githubusercontent.com/u/129843671?s=400&u=54b132a4bbd3fe1822279ae20dcc4080bc98fabd&v=4)
 
-Biz Lingua takımı olarak doğal dil işleme alanında çalışıyoruz. Amacımız, Türkçe doğal dil işleme kaynaklarını geliştirmek ve Teknofest gibi yarışmalarda başarılı olmaktır.
+Merhaba! Biz Lingua takımı olarak, doğal dil işleme alanında çalışıyoruz ve Türkçe doğal dil işleme kaynaklarını geliştirmek için yoğun bir şekilde çaba gösteriyoruz. Amacımız sadece bununla da sınırlı değil aynı zamanda Teknofest gibi prestijli yarışmalarda da başarılı olmak istiyoruz. Kendimize özgü yaklaşımımız ve yaratıcı çözümlerimizle, doğal dil işleme alanında yeni bir çağ açmayı hedefliyoruz.
+# Performans
+
+Modelimiz, %95 doğruluk elde etti. Ayrıca, 0.95 F1 puanı elde edildi.
+
+Modelimizi eğitmek için 12.000 adet cümle içeren veri kullanıldı ve eğitim süresi yaklaşık 3.5 saat sürdü.
+
+# Veri Seti
+
+Modelimizi eğitmek için TEKNOFEST'in verdiği veri setini kullandık. Bu veri seti, 12.000 adet hakaret, küfür, ırkçılık, cinsiyetçilik ve herhangi bir kategoriye girmeyen cümleler içeriyor ve her bir cümle, ayrı bir etiketle etiketlenmiştir. Etiketler, 5 farklı sınıfa ayrılmıştır: OTHER, SEXIST, RACIST, INSULT ve PROFANITY.
 
 # Modeli İndirme
 
