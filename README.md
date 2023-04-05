@@ -1,4 +1,5 @@
 # Lingua
+![indir (1)](https://avatars.githubusercontent.com/u/129843671?s=400&u=54b132a4bbd3fe1822279ae20dcc4080bc98fabd&v=4)
 Biz Lingua takımı olarak doğal dil işleme alanında çalışıyoruz. Amacımız, Türkçe doğal dil işleme kaynaklarını geliştirmek ve Teknofest gibi yarışmalarda başarılı olmaktır.
 
 # Modeli İndirme
