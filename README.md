@@ -57,4 +57,4 @@ f1 = f1_score(y_true, y_pred, average='weighted')
 print("F1 skoru:", f1)
 ```
 
-<img width="1066" alt="image" src="https://user-images.githubusercontent.com/81961593/230115321-62785a05-2887-435e-b8e2-396e47ca5bb7.png">
+<img width="1072" alt="image" src="https://user-images.githubusercontent.com/81961593/230116788-2714a0ee-4a49-45b6-a507-cb6d4b5fb653.png">
