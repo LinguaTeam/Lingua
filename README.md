@@ -30,7 +30,10 @@ Sağlayıcı | Link
 Google Drive | [Google Drive](https://drive.google.com/file/d/1NK6ZyTdQo73uZZ34QzPdvDwk7DXSaZnZ/view?usp=sharing) |
 
 # Modelin Kullanımı
-
+Model için kurmanız gereken kütüphane
+```python
+pip install simpletransformers
+```
 Modeli ayrıca kullanmak isterseniz aşağıdaki gibi kullanabilirsiniz.
 
 ```python
