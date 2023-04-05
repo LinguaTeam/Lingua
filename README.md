@@ -1,6 +1,14 @@
 # Lingua
 Biz Lingua takımı olarak doğal dil işleme alanında çalışıyoruz. Amacımız, Türkçe doğal dil işleme kaynaklarını geliştirmek ve Teknofest gibi yarışmalarda başarılı olmaktır.
 
+# Modeli İndirme
+
+Modelimiz yaklaşık 4 GB olduğundan dolayı Github'a ekleyemedik. Modelimizi aşağıda verilen tablodaki linklerden birini kullanarak indirebiriliz.
+
+Sağlayıcı | Link
+--- | --- |
+Google Drive | [Google Drive](https://drive.google.com/file/d/1NK6ZyTdQo73uZZ34QzPdvDwk7DXSaZnZ/view?usp=sharing) |
+
 # Confusion Matrix
 
 Confusion Matrix şu kod kullanılarak hesaplanmıştır.
