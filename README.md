@@ -29,6 +29,31 @@ Sağlayıcı | Link
 --- | --- |
 Google Drive | [Google Drive](https://drive.google.com/file/d/1NK6ZyTdQo73uZZ34QzPdvDwk7DXSaZnZ/view?usp=sharing) |
 
+# Modelin Kullanımı
+
+Modeli ayrıca kullanmak isterseniz aşağıdaki gibi kullanabilirsiniz.
+
+```python
+from simpletransformers.classification import ClassificationModel
+def predict(texts):
+    model_path = "bert_model"
+    model = ClassificationModel('bert', model_path, use_cuda=False)
+    predictions, _ = model.predict(texts)
+    return [sayidan_sonuca(prediction) for prediction in predictions]
+
+def sayidan_sonuca(sayi):
+    if sayi == 4:
+        return 'OTHER'
+    elif sayi == 1:
+        return 'RACIST'
+    elif sayi == 0:
+        return 'INSULT'
+    elif sayi == 3:
+        return 'PROFANITY'
+    elif sayi == 2:
+        return 'SEXIST'
+print(predict([""])) #Sınıflandıralacak Metin Buraya girilecek.
+```
 # Confusion Matrix
 
 Confusion Matrix şu kod kullanılarak hesaplanmıştır.
