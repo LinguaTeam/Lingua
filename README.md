@@ -2,6 +2,15 @@
 ![indir (1)](https://avatars.githubusercontent.com/u/129843671?s=400&u=54b132a4bbd3fe1822279ae20dcc4080bc98fabd&v=4)
 
 Merhaba! Biz Lingua takımı olarak, doğal dil işleme alanında çalışıyoruz ve Türkçe doğal dil işleme kaynaklarını geliştirmek için yoğun bir şekilde çaba gösteriyoruz. Amacımız sadece bununla da sınırlı değil aynı zamanda Teknofest gibi prestijli yarışmalarda da başarılı olmak istiyoruz. Kendimize özgü yaklaşımımız ve yaratıcı çözümlerimizle, doğal dil işleme alanında yeni bir çağ açmayı hedefliyoruz.
+# Model
+
+Modelimiz Türkçe metin sınıflandırması için özellikle tasarlanmıştır ve Türkçe BERT adı verilen bir yapay zeka modeli kullanılarak eğitilmiştir. Bu model, Türkçe metinlerdeki kelime ve cümle yapılarını anlamak için tasarlanmış bir dil modelidir ve doğal dil işleme alanındaki birçok farklı görev için kullanılabilir.
+
+Özellikle metin sınıflandırması alanında kullanılan bu model, belirli bir metnin hangi sınıfa ait olduğunu belirlemek için kullanılabilir. Örneğin, bir tweet'in "insult" (hakaret) veya "racist" (ırkçılık) olarak sınıflandırılması gibi.
+
+Türkçe BERT modelimiz, büyük bir Türkçe metin veri kümesi kullanılarak eğitildi ve sonuç olarak, Türkçe doğal dil işleme alanında oldukça başarılı sonuçlar vermektedir. Ayrıca, modelimizin girdi olarak alabileceği metin boyutu oldukça geniş olduğundan, farklı uzunluklardaki metinler için de kullanılabilir.
+
+Bu modelin özellikleri arasında, doğal dil işleme alanındaki diğer görevler için de kullanılabilmesi ve birçok farklı Türkçe veri kümesi üzerinde yüksek doğruluk oranlarına sahip olması yer almaktadır.
 # Performans
 
 Modelimiz, %95 doğruluk elde etti. Ayrıca, 0.95 F1 puanı elde edildi.
