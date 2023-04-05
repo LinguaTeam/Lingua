@@ -47,6 +47,11 @@ F1 Skoru, aşağıdaki kod kullanılarak hesaplanmıştır ve "0.95" değeri bul
 
 ```python 
 from sklearn.metrics import f1_score
+import pandas as pd
+
+df = pd.read_csv("confusion_matrix_icin.csv", sep="|")
+y_true = df['normal_target'].tolist()
+y_pred = df['predicted_target'].tolist()
 
 f1 = f1_score(y_true, y_pred, average='weighted')
 print("F1 skoru:", f1)
