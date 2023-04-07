@@ -1,0 +1,7 @@
+requirements-->
+pandas
+simpletransformers
+gradio
+matplotlib
+sklearn
+numpy
