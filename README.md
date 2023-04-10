@@ -116,6 +116,6 @@ print("F1 skoru:", f1)
 <img width="1072" alt="image" src="https://user-images.githubusercontent.com/81961593/230116788-2714a0ee-4a49-45b6-a507-cb6d4b5fb653.png">
 
 # Demo Videosu
-URL:
+URL :
 
 https://www.youtube.com/watch?v=IpdUwnNhR50
