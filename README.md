@@ -44,6 +44,7 @@ def predict(texts):
     predictions, _ = model.predict(texts)
     return [sayidan_sonuca(prediction) for prediction in predictions]
 
+
 def sayidan_sonuca(sayi):
     if sayi == 4:
         return 'OTHER'
@@ -55,11 +56,12 @@ def sayidan_sonuca(sayi):
         return 'PROFANITY'
     elif sayi == 2:
         return 'SEXIST'
-print(predict([""])) #Sınıflandıralacak Metin Buraya girilecek.
+        
+print(predict([""]))   #Sınıflandıralacak Metin Buraya girilecek.
 ```
 # Confusion Matrix
 
-Confusion Matrix şu kod kullanılarak hesaplanmıştır.
+Confusion Matrix şu kod kullanılarak hesaplanmıştır ve aşağıda verilen resim gelmiştir.
 
 ```python 
 import matplotlib.pyplot as plt
@@ -116,6 +118,9 @@ print("F1 skoru:", f1)
 <img width="1072" alt="image" src="https://user-images.githubusercontent.com/81961593/230116788-2714a0ee-4a49-45b6-a507-cb6d4b5fb653.png">
 
 # Demo Videosu
-URL :
+
+https://user-images.githubusercontent.com/81961593/232031636-069fdd2b-3cdb-45df-8977-d81ef38ed013.mp4
+
+Videoyu Youtube üzerinden izlemek için aaşağıdaki linki kullanabilirsiniz:
 
 https://www.youtube.com/watch?v=IpdUwnNhR50
