@@ -121,6 +121,6 @@ print("F1 skoru:", f1)
 
 https://user-images.githubusercontent.com/81961593/232031636-069fdd2b-3cdb-45df-8977-d81ef38ed013.mp4
 
-Videoyu Youtube üzerinden izlemek için aaşağıdaki linki kullanabilirsiniz:
+Videoyu Youtube üzerinden izlemek için aşağıdaki linki kullanabilirsiniz:
 
 https://www.youtube.com/watch?v=IpdUwnNhR50
